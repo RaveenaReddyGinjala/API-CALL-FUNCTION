@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App>table{
+  margin-top: 10px;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.App>table>tr>th , .App>table>tr>td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.App > table > tr > th {
+  padding: 10px 0px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.App > table > tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.App > table > tr:hover {
+  background-color: #ddd;
+}
+
+
+.search-container{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.search-container>input{
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+}
+
